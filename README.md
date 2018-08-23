@@ -17,6 +17,7 @@ TASK:
  - implements FCM on update and backup events
  - implements background messages handling
  - implements foreground messages handling
+ - deploy build on firebase hosting
 
   Cicle CI:
 
