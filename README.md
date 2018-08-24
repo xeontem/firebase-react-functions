@@ -9,6 +9,7 @@ Circle CI:
   - add firebase token to the env variable of the project. Not to the context.
   - context only for storing artifact(not sure)
   - to deploy artifact add firebase-tools to dev-dependency. Add firebase.json to the root. Set hosting folder as build folder.
+  - check if .firebaserc file exists. If no, run firebase use --add.
 -------------------------------------------------------------------------------------------------------------------------------------------
 TASK:
 
