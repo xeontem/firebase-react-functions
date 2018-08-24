@@ -4,6 +4,7 @@ Firestore:
   - two options to call the lambda function:
     - through the ordinary ajax request
     - through the firebase.callable method
+  - it is necessary to catch every possible errors on methods that communicates with firestore, since deploy on CI will fail. 
     
 Circle CI:
   - add firebase token to the env variable of the project. Not to the context.
