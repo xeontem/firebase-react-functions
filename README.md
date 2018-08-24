@@ -3,8 +3,7 @@ Firestore:
   - to debug functions in shell you should provide a private key. In this test project it stores in key.json file
   - two options to call the lambda function:
     - through the ordinary ajax request
-    - through the firebase.callable method
-  - it is necessary to catch every possible errors on methods that communicates with firestore, since deploy on CI will fail. 
+    - through the firebase.callable method 
     
 Circle CI:
   - add firebase token to the env variable of the project. Not to the context.
